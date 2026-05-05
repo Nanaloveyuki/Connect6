@@ -1,0 +1,45 @@
+:root {
+	font-family: "Segoe UI", "PingFang SC", sans-serif;
+	line-height: 1.5;
+	color: #18314f;
+	background: #edf4fb;
+	--page-bg: linear-gradient(180deg, #f4f8fd 0%, #e8f0f9 100%);
+	--panel-bg: rgba(255, 255, 255, 0.76);
+	--panel-strong: rgba(255, 255, 255, 0.9);
+	--panel-border: rgba(142, 170, 201, 0.24);
+	--panel-shadow: 0 24px 60px rgba(98, 127, 163, 0.14);
+	--text-main: #18314f;
+	--text-soft: #6f86a4;
+	--accent: #45a8ff;
+	--accent-strong: #2f7df6;
+	--accent-soft: rgba(85, 181, 255, 0.14);
+	--success: #1dbb8d;
+}
+
+html {
+	background: #e9f1fa;
+	color: var(--text-main);
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background:
+		radial-gradient(circle at 10% 10%, rgba(112, 185, 255, 0.2), transparent 28%),
+		radial-gradient(circle at 88% 14%, rgba(255, 255, 255, 0.7), transparent 24%),
+		radial-gradient(circle at 50% 100%, rgba(148, 202, 255, 0.12), transparent 32%),
+		var(--page-bg);
+}
+
+button,
+input {
+	font: inherit;
+}
+
+button {
+	color: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}

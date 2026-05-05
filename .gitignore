@@ -1,0 +1,11 @@
+node_modules/
+*.log
+pnpm-debug.log*
+
+backend/.env
+backend/bin/
+backend/vendor/
+frontend/.env
+frontend/.svelte-kit/
+frontend/build/
+frontend/node_modules/

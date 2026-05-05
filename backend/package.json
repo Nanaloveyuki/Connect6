@@ -1,0 +1,9 @@
+{
+  "name": "connect6-backend-tools",
+  "private": true,
+  "scripts": {
+    "dev": "go run ./cmd/api",
+    "check": "go test ./...",
+    "build": "go build -o ./bin/connect6-api.exe ./cmd/api"
+  }
+}

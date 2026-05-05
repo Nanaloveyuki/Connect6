@@ -1,0 +1,19 @@
+app:
+  env: development
+  port: "8080"
+  readTimeoutSeconds: 10
+  writeTimeoutSeconds: 10
+
+github:
+  baseURL: https://api.github.com
+  token: ""
+  requestTimeoutSeconds: 15
+  followingLimit: 60
+  orgLimit: 20
+
+http:
+  allowedOrigins:
+    - http://localhost:5173
+
+graph:
+  maxDepth: 6

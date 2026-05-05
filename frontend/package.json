@@ -1,0 +1,27 @@
+{
+  "name": "connect6-frontend",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "pnpm exec vite dev --host 0.0.0.0",
+    "build": "pnpm exec vite build",
+    "preview": "pnpm exec vite preview",
+    "check": "pnpm exec svelte-kit sync && pnpm exec svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-auto": "7.0.1",
+    "@sveltejs/kit": "2.59.0",
+    "graphology": "0.26.0",
+    "graphology-layout-forceatlas2": "0.10.1",
+    "sigma": "3.0.3",
+    "svelte": "5.55.5"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "@sveltejs/vite-plugin-svelte": "7.0.0",
+    "svelte-check": "4.4.7",
+    "typescript": "6.0.3",
+    "vite": "8.0.10"
+  }
+}
